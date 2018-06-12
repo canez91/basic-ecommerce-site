@@ -188,7 +188,6 @@
 			  }).then((response)=>{
 			  
 			  }).catch((error)=> {
-	            //alert("ERROR:"+error.response.data.msg);
 	            this.makeSwal("Error", error.response.data.msg, "error", "Aceptar");
 	            this.resetImage();
 	          });

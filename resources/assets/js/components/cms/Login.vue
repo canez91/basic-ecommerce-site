@@ -35,37 +35,6 @@
           </v-flex>
         </v-layout>
       </v-container>  
-   <!--v-container grid-list-md>
-        <v-layout row wrap>
-            <v-flex xs10 offset-xs1 sm8 offset-sm2 md6 offset-md3>
-                <v-text-field 
-                  v-model="email"
-                  name="email" 
-                  solo label="Correo electrónico"
-                ></v-text-field>
-            </v-flex>
-            <v-flex xs10 offset-xs1 sm8 offset-sm2 md6 offset-md3>
-                 <v-text-field
-                  v-model="password"
-                  name="password"
-                  :append-icon="e1 ? 'visibility' : 'visibility_off'"
-                  :append-icon-cb="() => (e1 = !e1)"
-                  :type="e1 ? 'password' : 'text'"
-                  solo label="Contraseña"
-                ></v-text-field>
-            </v-flex>
-            <v-flex xs10 offset-xs1 sm8 offset-sm2 md6 offset-md3>
-              <v-btn 
-                block 
-                class="blue" 
-                dark
-                type="submit"
-              >
-                Ingresar
-              </v-btn>
-            </v-flex>
-        </v-layout>
-    </v-container-->
 </template>
 
 <script>

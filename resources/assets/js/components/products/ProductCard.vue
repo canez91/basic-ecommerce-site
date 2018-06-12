@@ -22,7 +22,6 @@
                     </i>
                 </p>
                 <p>
-                  <!--a class="item_add" href="#">Agregar al carrito</a-->
                   <add-product-btn :product="product">
                   </add-product-btn>
                 </p>

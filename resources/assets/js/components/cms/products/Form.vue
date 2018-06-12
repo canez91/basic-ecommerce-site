@@ -100,7 +100,6 @@
 						"Content-Type": "application/json"
 					}
 				}).then((response)=>{
-					//this.makeSwal("Listo", response.data.msg, "success", "Aceptar");
 					swal({
 	                  title: "Listo!",
 	                  html: response.data.msg,

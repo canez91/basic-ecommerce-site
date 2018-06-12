@@ -63,15 +63,6 @@
                                 </add-product-btn>
                             </p>
                         </div>
-                        <!--h5>Color</h5>
-                        <div class="color-quality">
-                            <ul>
-                                <li><a href="#"><span></span>Red</a></li>
-                                <li><a href="#" class="brown"><span></span>Yellow</a></li>
-                                <li><a href="#" class="purple"><span></span>Purple</a></li>
-                                <li><a href="#" class="gray"><span></span>Violet</a></li>
-                            </ul>
-                        </div-->
                     </div>
                     <div class="clearfix"> </div>
                 </div>

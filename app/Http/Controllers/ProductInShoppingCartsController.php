@@ -39,9 +39,6 @@ class ProductInShoppingCartsController extends Controller
         if( $done ){
           return response()->json($resp, 200);
         } else {
-          //return redirect()->back()->withErrors(["product" => "No se pudo agregar el producto"]);   
-          /*\Session::flash('insertError', "No se pudo agregar el producto. Intenta de nuevo, por favor.");
-          return \Redirect::back()->withInput();*/
           return response()->json("error", 404);
         }
 

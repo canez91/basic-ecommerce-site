@@ -14,7 +14,6 @@ class CmsController extends Controller
 
     public function homePage()
     {
-        //$newProducts = $this->getHomeProducts();
-        return view("cms.home"/*, [ 'newProducts' =>  $newProducts ]*/);
+        return view("cms.home");
     }
 }
